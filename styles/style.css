@@ -1,0 +1,88 @@
+/* General Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* target the whole page using * */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;    /* for when add link to each nav it will go smooth to that section, not wiych to other page*/
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* Transition */
+
+a, .btn {
+    transition: all 300ms ease;
+}
+
+/* Desktop Nav */
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
+.logo {
+    font-size: 1.8rem;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* Hamburger Menu */
+
+#hamburger-nav {
+    display: none;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+

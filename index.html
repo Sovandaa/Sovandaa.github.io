@@ -9,8 +9,36 @@
     <link rel="stylesheet" href="styles/mediaqueries.css">
 </head>
 <body>
-    
 
+    <nav id="desktop-nav">
+        <div class="logo">Sovanda Ban</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="http://">About</a></li>
+                <li><a href="http://">Skill</a></li>
+                <li><a href="http://">Projects</a></li>
+                <li><a href="http://">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Sovanda Ban</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="http://" onclick="toggleMenu()">About</a></li>
+                <li><a href="http://" onclick="toggleMenu()">Skill</a></li>
+                <li><a href="http://" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="http://" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+    </nav>
 
     <script src="scripts/script.js">
 
