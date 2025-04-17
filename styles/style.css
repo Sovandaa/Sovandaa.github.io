@@ -254,6 +254,69 @@ section {
 }
 
 
+/* ABOUT SECTION */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 800px; 
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .about-image {
+    flex: 1;
+    min-width: 200px; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 300px; 
+  }
+  
+  .profile-pic {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-pic:hover {
+    transform: scale(1.02);
+  }
+
+  /* Enhanced Paragraph Styling */
+.about-para {
+    margin-bottom: 1.5rem;
+    line-height: 1.55;
+    color: #333;
+    font-size: 1.05rem;
+    position: relative;
+    padding-left: 1rem;
+    text-align: justify;
+  }
+  
+  /* Subtle bullet point indicator */
+  .about-para:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #4a6fa5; /* Soft blue accent */
+    font-weight: bold;
+  }
+  
+  /* First paragraph emphasis */
+  .about-para:first-child {
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 1.8rem;
+  }
+
 
 
 
