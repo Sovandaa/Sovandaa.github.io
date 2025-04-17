@@ -26,6 +26,7 @@
         <div class="logo">Sovanda Ban</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
+                <!-- to show as line in three par for icon menu -->
                 <span></span>
                 <span></span>
                 <span></span>
@@ -39,6 +40,43 @@
         </div>
 
     </nav>
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile simple.jpg" alt="sovanda profile pic">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Sovanda Ban</h1>
+            <p class="section_text_p2">Software Developer</p>
+            <!-- <p class="section_text_p2">Web Developer / Flutter Developer</p> -->
+
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/Ban_Sovanda_CV.pdf')">
+                    Download CV
+                </button>
+
+                <button class="btn btn-color-2" onclick="location.href='./' ">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" 
+                alt="My linkedin profile" 
+                class="icon"
+                aria-label="Visit my LinkedIn profile"
+                onclick="location.href='https://linkedin.com/in/sovanda-ban-73526b190'">
+                
+                <img src="./assets/github.png" 
+                alt="My Github profile" 
+                class="icon"
+                aria-label="Visit my Github profile"
+                onclick="location.href='https://github.com/Sovandaa'">
+            </div>
+        </div>
+        
+    </section>
+
 
     <script src="scripts/script.js">
 

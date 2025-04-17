@@ -1,2 +1,12 @@
 /* apply differ styles based on screen-size/device type */
 
+@media screen and (max-width: 1024px){
+    /* when src size lower than 1200 px desktop bar will dispear */
+    #desktop-nav{
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: flex;
+    }
+}
