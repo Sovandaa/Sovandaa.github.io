@@ -595,7 +595,7 @@ section {
     height: 2.5rem;
   }
   
-  /* FOOTER SECTION */
+  /* FOOTER SECTION
   
   footer {
     height: 26vh;
@@ -604,6 +604,39 @@ section {
   
   footer p {
     text-align: center;
+  } */
+
+
+/* FOOTER SECTION */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .social-icons a {
+    color: black; /* Change color as needed */
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #aaa; /* Change hover color as needed */
   }
 
 
